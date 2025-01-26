@@ -1,0 +1,143 @@
+[
+    {
+      "id": "64b1f1f8a75b9b12d4567891",
+      "title": "Discover Cox's Bazar",
+      "type": "Beach Holiday",
+      "price": 300,
+      "image": "https://i.ibb.co/gMH2fRf/17827470-5888122.jpg",
+      "gallery": [
+        "https://i.ibb.co/H275KY0/img.jpg",
+        "https://i.ibb.co/vXyXWtZ/portrait-man-bridge.jpg",
+        "https://i.ibb.co/gwr0161/traveler-girl-searching-right-direction-map.jpg",
+        "https://i.ibb.co/S7tphgs/friends-traveling-discovering-new-places.jpg",
+        "https://i.ibb.co/VxSPBJ4/banner10.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567892",
+      "title": "Sundarbans Adventure",
+      "type": "Wildlife Safari",
+      "price": 500,
+      "image": "https://i.ibb.co/XtM8y4Z/9183398-4090528.jpg",
+      "gallery": [
+        "https://i.ibb.co/c8XcSMP/banner8.jpg",
+        "https://i.ibb.co/LNZysLv/banner6.jpg",
+        "https://i.ibb.co/vdH8Yvt/banner4.jpg",
+        "https://i.ibb.co/W5C5dZd/banner3.jpg",
+        "https://i.ibb.co/c2CLRyM/banner2.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567893",
+      "title": "Sylhet Tea Gardens",
+      "type": "Cultural Tour",
+      "price": 250,
+      "image": "https://i.ibb.co/smQLSpb/10014702-4237934.jpg",
+      "gallery": [
+        "https://i.ibb.co/6PPybBx/young-female-standing-platform-surrounded-by-fences-observing-lisbon-daytime-portugal.jpg",
+        "https://i.ibb.co/vsbpXLr/rear-view-woman-carrying-backpack-looking-ferris-wheel.jpg",
+        "https://i.ibb.co/KXdzZGb/beautiful-girl-red-bikini-boat-koh-kai-island-thailand.jpg",
+        "https://i.ibb.co/wrNVVV3/back-view-women-taking-photos-park.jpg",
+        "https://i.ibb.co/KXhMwGq/group-hikers-standing-footpath.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567894",
+      "title": "Bandarban Heights",
+      "type": "Mountain Trek",
+      "price": 400,
+      "image": "https://i.ibb.co/fMq6nnV/27828827-7392179.jpg",
+      "gallery": [
+        "https://i.ibb.co/cNnsgG5/close-up-woman-taking-selfie.jpg",
+        "https://i.ibb.co/h9zdjJg/hugging-women-walking-park.jpg",
+        "https://i.ibb.co/HqhV6Mk/images-1.jpg",
+        "https://i.ibb.co/H275KY0/img.jpg",
+        "https://i.ibb.co/vXyXWtZ/portrait-man-bridge.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567895",
+      "title": "Saint Martin's Island",
+      "type": "Island Getaway",
+      "price": 350,
+      "image": "https://i.ibb.co/qm5d3MR/28372212-7567315.jpg",
+      "gallery": [
+        "https://i.ibb.co/S7tphgs/friends-traveling-discovering-new-places.jpg",
+        "https://i.ibb.co/KXdzZGb/beautiful-girl-red-bikini-boat-koh-kai-island-thailand.jpg",
+        "https://i.ibb.co/vsbpXLr/rear-view-woman-carrying-backpack-looking-ferris-wheel.jpg",
+        "https://i.ibb.co/LNZysLv/banner6.jpg",
+        "https://i.ibb.co/VxSPBJ4/banner10.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567896",
+      "title": "Rangamati Lake Tour",
+      "type": "Boating Adventure",
+      "price": 280,
+      "image": "https://i.ibb.co/gMH2fRf/17827470-5888122.jpg",
+      "gallery": [
+        "https://i.ibb.co/gwr0161/traveler-girl-searching-right-direction-map.jpg",
+        "https://i.ibb.co/H275KY0/img.jpg",
+        "https://i.ibb.co/wrNVVV3/back-view-women-taking-photos-park.jpg",
+        "https://i.ibb.co/c2CLRyM/banner2.jpg",
+        "https://i.ibb.co/c8XcSMP/banner8.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567897",
+      "title": "Paharpur Monastery",
+      "type": "Historical Exploration",
+      "price": 220,
+      "image": "https://i.ibb.co/TL9ftgL/10912525-4568012.jpg",
+      "gallery": [
+        "https://i.ibb.co/VxSPBJ4/banner10.jpg",
+        "https://i.ibb.co/LNZysLv/banner6.jpg",
+        "https://i.ibb.co/vdH8Yvt/banner4.jpg",
+        "https://i.ibb.co/W5C5dZd/banner3.jpg",
+        "https://i.ibb.co/S7tphgs/friends-traveling-discovering-new-places.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567898",
+      "title": "Jaflong Adventure",
+      "type": "Eco Tour",
+      "price": 260,
+      "image": "https://i.ibb.co/FJxsVjd/34620152-8749021.jpg",
+      "gallery": [
+        "https://i.ibb.co/KXdzZGb/beautiful-girl-red-bikini-boat-koh-kai-island-thailand.jpg",
+        "https://i.ibb.co/wrNVVV3/back-view-women-taking-photos-park.jpg",
+        "https://i.ibb.co/vsbpXLr/rear-view-woman-carrying-backpack-looking-ferris-wheel.jpg",
+        "https://i.ibb.co/6PPybBx/young-female-standing-platform-surrounded-by-fences-observing-lisbon-daytime-portugal.jpg",
+        "https://i.ibb.co/H275KY0/img.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d4567899",
+      "title": "Lalakhal Cruise",
+      "type": "River Journey",
+      "price": 300,
+      "image": "https://i.ibb.co/gMH2fRf/17827470-5888122.jpg",
+      "gallery": [
+        "https://i.ibb.co/c8XcSMP/banner8.jpg",
+        "https://i.ibb.co/H275KY0/img.jpg",
+        "https://i.ibb.co/cNnsgG5/close-up-woman-taking-selfie.jpg",
+        "https://i.ibb.co/h9zdjJg/hugging-women-walking-park.jpg",
+        "https://i.ibb.co/KXhMwGq/group-hikers-standing-footpath.jpg"
+      ]
+    },
+    {
+      "id": "64b1f1f8a75b9b12d456789A",
+      "title": "Kaptai Adventure",
+      "type": "Lakeside Retreat",
+      "price": 320,
+      "image": "https://i.ibb.co/N71Fh5X/12453678-3864125.jpg",
+      "gallery": [
+        "https://i.ibb.co/c2CLRyM/banner2.jpg",
+        "https://i.ibb.co/W5C5dZd/banner3.jpg",
+        "https://i.ibb.co/vdH8Yvt/banner4.jpg",
+        "https://i.ibb.co/LNZysLv/banner6.jpg",
+        "https://i.ibb.co/VxSPBJ4/banner10.jpg"
+      ]
+    }
+  ]
+  
