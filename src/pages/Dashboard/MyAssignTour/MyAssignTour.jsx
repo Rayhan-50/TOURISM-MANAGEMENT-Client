@@ -4,12 +4,12 @@ import useCart from '../../../hooks/useCart';
 
 const MyAssignTour = () => {
     const { user } = useContext(AuthContext);  
-    const [cart, refetch] = useCart();
+    // const [cart, refetch] = useCart();
     console.log(cart.touristName)
     return (
         <div>
             
-            <h2>hhhh</h2>
+            <h2>{user.displayName} assign tour</h2>
         </div>
     );
 };
