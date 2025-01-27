@@ -5,7 +5,7 @@ import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import useAxiosPublic from "../../../hooks/useAxiosPublic";
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 
 const image_hosting_key = import.meta.env.VITE_IMAGE_HOSTING_KEY;
@@ -71,7 +71,7 @@ const AddStory = () => {
         });
   
         // Redirect to the manage stories page
-        navigate("/manage-stories");
+        navigate("/dashboard/manage-stories");
         reset();
       }
     } catch (error) {
@@ -135,14 +135,17 @@ const AddStory = () => {
 
         {/* Submit Button */}
         <div>
-          <button
+        
+         <button
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
             disabled={loading}
           >
             {loading ? "Uploading..." : "Add Story"}
           </button>
+        
         </div>
+   
       </form>
     </div>
   );

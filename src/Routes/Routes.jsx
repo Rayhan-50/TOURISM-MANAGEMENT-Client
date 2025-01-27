@@ -17,6 +17,15 @@ import ManageUsers from "../pages/Dashboard/ManageUsers/ManageUsers";
 import AddPakages from "../pages/Dashboard/AddPakages/AddPakages";
 import AdminRoute from "./AdminRoute";
 import AddStorieses from "../pages/Dashboard/AddStorieses/AddStorieses";
+import ManageStories from "../pages/Dashboard/ManageStories/ManageStories";
+import Payment from "../pages/Dashboard/Payment/Payment";
+import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
+import ToristHome from "../pages/Dashboard/ToristHome/ToristHome";
+import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
+import ToristGuideHome from "../pages/Dashboard/ToristGuideHome/ToristGuideHome";
+import MyAssignTour from "../pages/Dashboard/MyAssignTour/MyAssignTour";
+import JoinTourGuide from "../pages/Dashboard/JoinTourGuide/JoinTourGuide";
+import Intro from "../pages/Dashboard/Intro/Intro";
 
 
 
@@ -70,10 +79,45 @@ import AddStorieses from "../pages/Dashboard/AddStorieses/AddStorieses";
           element:<Cart></Cart>
         },
         {
+          path: 'intro',
+          element:<Intro></Intro>
+        },
+        {
+          path: 'toristProfile',
+          element: <ToristHome></ToristHome>
+        },
+        {
           path: 'add-stories',
           element:<AddStorieses></AddStorieses>
         },
+        {
+          path: 'payment',
+          element: <Payment></Payment>
+
+        },
+        {
+           path:'paymentHistory',
+           element: <PaymentHistory></PaymentHistory>
+        },
+        // torist guide
+        {
+          path:'guideProfile',
+          element:<ToristGuideHome></ToristGuideHome>
+        },
+        {
+          path:'myAssignTour',
+          element:<MyAssignTour></MyAssignTour>
+        },
+        {
+          path:'joinTourGuide',
+          element:<JoinTourGuide></JoinTourGuide>
+        },
+
         // admin routes
+        {
+          path: 'adminHome',
+          element: <AdminHome></AdminHome>
+        },
 
         {
           path: 'manage-users',
@@ -82,6 +126,10 @@ import AddStorieses from "../pages/Dashboard/AddStorieses/AddStorieses";
         {
           path: 'add-pakage',
           element: <AdminRoute><AddPakages></AddPakages></AdminRoute>
+        },
+        {
+          path: 'manage-stories',
+          element: <ManageStories></ManageStories>
         }
       ]
 

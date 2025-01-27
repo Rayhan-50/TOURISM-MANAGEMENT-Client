@@ -373,7 +373,7 @@ const Navbar = () => {
           </li>
           <li>
           <NavLink
-              to="/dashboard/cart"
+              to="/dashboard/intro"
               className={({ isActive }) =>
                 isActive
                   ? 'text-blue-500 border-b-2 border-blue-500 pb-1'
@@ -381,7 +381,7 @@ const Navbar = () => {
               }
             >
             <div className="">
-              Inbox
+              DashBoard
               <div className="badge mx-1">+{cart.length}</div>
             </div>
             </NavLink>
@@ -433,7 +433,7 @@ const Navbar = () => {
     {menuOpen && (
       <div className="absolute right-0 mt-2 bg-white text-black rounded-md shadow-lg py-2 w-48">
         <NavLink
-          to="/dashboard"
+          to="/dashboard/intro"
           className="block px-4 py-2 hover:bg-gray-100"
           onClick={() => setMenuOpen(false)}
         >
