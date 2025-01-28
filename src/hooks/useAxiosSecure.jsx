@@ -4,7 +4,7 @@ import useAuth from './useAuth';
 
 // Create Axios instance
  const AxiosSecure = axios.create({
-  baseURL: "http://localhost:5000", // Update with your actual backend URL
+  baseURL: "https://y-two-ruby.vercel.app", 
 });
 
 // Custom hook to use the Axios instance
