@@ -48,7 +48,7 @@ import Intro from "../pages/Dashboard/Intro/Intro";
         },
         {
           path:'/trips',
-          element: <Trips></Trips>
+          element: <PrivateRoute><Trips></Trips></PrivateRoute>
         },
         {
           path:'login',
@@ -60,11 +60,11 @@ import Intro from "../pages/Dashboard/Intro/Intro";
         },
         {
           path: '/packages/:id',
-          element: <PackageDetails></PackageDetails>,
+          element:<PrivateRoute> <PackageDetails></PackageDetails></PrivateRoute>,
         },
         {
           path: '/guides/:id',
-          element: <TourGuideProfile></TourGuideProfile>,
+          element: <PrivateRoute><TourGuideProfile></TourGuideProfile></PrivateRoute>,
         },
         
       ]

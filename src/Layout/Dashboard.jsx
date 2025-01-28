@@ -18,9 +18,9 @@ import { AuthContext } from "../providers/AuthProvider";
 import { useContext } from "react";
 
 const Dashboard = () => {
-  const { user } = useContext(AuthContext); // Get the current user
-  const [isGuide] = useGuide(); // Determine if the user is a guide
-  const [isAdmin] = UseAdmin(); // Determine if the user is an admin
+  const { user } = useContext(AuthContext); 
+  const [isGuide] = useGuide(); 
+  const [isAdmin] = UseAdmin(); 
 
   return (
     <div className="flex h-screen overflow-hidden">

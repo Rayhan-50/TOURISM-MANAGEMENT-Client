@@ -1,14 +1,4 @@
-// import React from 'react';
 
-// const Community = () => {
-//     return (
-//         <div>
-//             community
-//         </div>
-//     );
-// };
-
-// export default Community;
 
 import { useContext, useEffect, useState } from "react";
 import { FacebookShareButton, FacebookIcon } from "react-share";
