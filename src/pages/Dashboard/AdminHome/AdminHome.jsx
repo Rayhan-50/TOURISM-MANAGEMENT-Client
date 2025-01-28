@@ -31,15 +31,7 @@ const AdminHome = () => {
         setUpdatedInfo((prev) => ({ ...prev, [name]: value }));
     };
 
-    // Handle form submission for admin info update
-    // const handleUpdate = async () => {
-    //     try {
-    //         await axiosSecure.put('/admin-profile', updatedInfo);
-    //         toggleEditModal();
-    //     } catch (error) {
-    //         console.error('Error updating admin info:', error);
-    //     }
-    // };
+  
 
     if (isLoading) {
         return <p>Loading...</p>;

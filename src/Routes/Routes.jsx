@@ -116,12 +116,12 @@ import Intro from "../pages/Dashboard/Intro/Intro";
         // admin routes
         {
           path: 'adminHome',
-          element: <AdminHome></AdminHome>
+          element: <AdminRoute><AdminHome></AdminHome></AdminRoute>
         },
 
         {
           path: 'manage-users',
-          element: <ManageUsers></ManageUsers>
+          element: <AdminRoute><ManageUsers></ManageUsers></AdminRoute>
         },
         {
           path: 'add-pakage',
