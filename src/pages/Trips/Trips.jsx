@@ -24,7 +24,7 @@ const AllTrips = () => {
   }, [axiosPublic]);
 
   return (
-    <div className="max-w-7xl mx-auto p-4 py-20">
+    <div className="max-w-7xl mx-auto p-4 py-28">
       <h2 className="text-3xl font-bold text-center mb-6">All Trips</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {packages.map((pkg) => (

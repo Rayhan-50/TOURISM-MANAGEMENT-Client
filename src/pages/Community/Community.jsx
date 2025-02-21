@@ -39,7 +39,7 @@ const CommunityPage = () => {
 
   return (
    
-    <div className="tourist-story-section py-20">
+    <div className="tourist-story-section py-28">
           <h2 className="text-2xl font-bold mb-4 text-center">Tourist Stories</h2>
           <div className="stories-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {stories.map((story) => (

@@ -194,55 +194,63 @@ const Login = () => {
     };
 
     return (
+      
         <div className="hero min-h-screen card bg-base-100 shadow-2xl card-body flex flex-col items-center">
-            <div className="hero-content flex-col md:flex-row-reverse w-full max-w-4xl">
-                <div className="text-center md:w-1/2 lg:text-left">
-                    <Lottie animationData={registerLottieData} />
-                </div>
-                <div className="md:w-1/2 max-w-sm">
-                    <form onSubmit={handleLogin}>
-                        <div className="form-control">
-                            <label className="label"><span className="label-text">Email</span></label>
-                            <input ref={emailRef} type="email" name="email" placeholder="email" className="input input-bordered" required />
-                        </div>
-                        <div className="form-control">
-                            <label className="label"><span className="label-text">Password</span></label>
-                            <input ref={passwordRef} type="password" name="password" placeholder="password" className="input input-bordered" required />
-                            <label className="label"><a href="#" className="label-text-alt link link-hover">Forgot password?</a></label>
-                        </div>
-                        <div className="form-control">
-                            <label className="label"><LoadCanvasTemplate /></label>
-                            <input onBlur={handleValidateCaptcha} type="text" name="captcha" placeholder="Type the text above" className="input input-bordered" required />
-                            <button className="btn btn-outline btn-xs mt-3">Validate</button>
-                        </div>
-                        <div className="form-control mt-6">
-                            <input disabled={disabled} className="btn btn-primary" type="submit" value="Login" />
-                        </div>
-                    </form>
-                    <p className="py-4 text-3xl">
-                        <small>New here? <Link to="/signup">Create an account</Link></small>
-                    </p>
-                    <SocialLogin />
-                </div>
-            </div>
 
-            {/* Credentials Section */}
-            <div className="w-full max-w-2xl mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-white shadow-lg rounded-lg p-6 cursor-pointer hover:shadow-2xl transition text-center">
-                    <h3 className="text-xl font-semibold">Admin Credentials</h3>
-                    <p><strong>Email:</strong> saddam1@gmail.com</p>
-                    <p><strong>Password:</strong> sA@1234</p>
-                    <button onClick={() => handleAutoFill("saddam1@gmail.com", "sA@1234")} className="btn btn-outline btn-xs mt-3">Use Admin Login</button>
-                </div>
-                <div className="bg-white shadow-lg rounded-lg p-6 cursor-pointer hover:shadow-2xl transition text-center">
-                    <h3 className="text-xl font-semibold">Tour Guide Credentials</h3>
-                    <p><strong>Email:</strong> easin1@gmail.com</p>
-                    <p><strong>Password:</strong> Ea@1234</p>
-                    <button onClick={() => handleAutoFill("easin1@gmail.com", "Ea@1234")} className="btn btn-outline btn-xs mt-3">Use Tour Guide Login</button>
-                </div>
+        {/* Credentials Section - Moved to the Top */}
+        <div className="w-full max-w-2xl mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-white shadow-lg rounded-lg p-6 cursor-pointer hover:shadow-2xl transition text-center">
+                <h3 className="text-xl font-semibold">Admin Credentials</h3>
+                <p><strong>Email:</strong> saddam1@gmail.com</p>
+                <p><strong>Password:</strong> sA@1234</p>
+                <button onClick={() => handleAutoFill("saddam1@gmail.com", "sA@1234")} className="btn btn-outline btn-xs mt-3">Use Admin Login</button>
+            </div>
+            <div className="bg-white shadow-lg rounded-lg p-6 cursor-pointer hover:shadow-2xl transition text-center">
+                <h3 className="text-xl font-semibold">Tour Guide Credentials</h3>
+                <p><strong>Email:</strong> easin1@gmail.com</p>
+                <p><strong>Password:</strong> Ea@1234</p>
+                <button onClick={() => handleAutoFill("easin1@gmail.com", "Ea@1234")} className="btn btn-outline btn-xs mt-3">Use Tour Guide Login</button>
             </div>
         </div>
+    
+        {/* Main Login Section */}
+        <div className="hero-content flex-col md:flex-row-reverse w-full max-w-4xl">
+            <div className="text-center md:w-1/2 lg:text-left">
+                <Lottie animationData={registerLottieData} />
+            </div>
+            <div className="md:w-1/2 max-w-sm">
+                <form onSubmit={handleLogin}>
+                    <div className="form-control">
+                        <label className="label"><span className="label-text">Email</span></label>
+                        <input ref={emailRef} type="email" name="email" placeholder="email" className="input input-bordered" required />
+                    </div>
+                    <div className="form-control">
+                        <label className="label"><span className="label-text">Password</span></label>
+                        <input ref={passwordRef} type="password" name="password" placeholder="password" className="input input-bordered" required />
+                        <label className="label"><a href="#" className="label-text-alt link link-hover">Forgot password?</a></label>
+                    </div>
+                    <div className="form-control">
+                        <label className="label"><LoadCanvasTemplate /></label>
+                        <input onBlur={handleValidateCaptcha} type="text" name="captcha" placeholder="Type the text above" className="input input-bordered" required />
+                        <button className="btn btn-outline btn-xs mt-3">Validate</button>
+                    </div>
+                    <div className="form-control mt-6">
+                        <input disabled={disabled} className="btn btn-primary" type="submit" value="Login" />
+                    </div>
+                </form>
+                <p className="py-4 text-3xl">
+                    <small>New here? <Link className='text-pink-700' to="/signup">Create an account</Link></small>
+                </p>
+                <SocialLogin />
+            </div>
+        </div>
+    </div>
+     
+      
     );
 };
 
 export default Login;
+
+
+
