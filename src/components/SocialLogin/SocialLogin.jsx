@@ -1,10 +1,11 @@
 
 import { FaGoogle } from "react-icons/fa";
 
-import { useNavigate } from "react-router-dom";
+
 
 import useAxiosPublic from "../../hooks/useAxiosPublic";
-
+import { useNavigate } from "react-router-dom";
+import useAuth from "../../hooks/UseAuth";
 
 
 const SocialLogin = () => {
@@ -32,7 +33,7 @@ const SocialLogin = () => {
         <div className="p-8">
             <div className="divider"></div>
             <div>
-                <button onClick={handleGoogleSignIn} className="btn btn-primary">
+                <button onClick={handleGoogleSignIn} className="btn">
                     <FaGoogle className="mr-2"></FaGoogle>
                     Google
                 </button>
