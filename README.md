@@ -1,7 +1,6 @@
 # Tourism Management System
 
-[![Live Site](https://tourism-management-28e12.web.app/)](https://tourism-management-28e12.web.app/)
-
+[https://tourism-management-28e12.web.app/](https://tourism-management-28e12.web.app/)
 ## Project Overview
 
 This Tourist Guide site is a comprehensive platform for travelers seeking information and resources for their trips to Bangladesh. It offers detailed insights into popular destinations, attractions, local culture, cuisine, and activities, helping users plan their adventures effectively.
