@@ -3,7 +3,7 @@
 import React from 'react';
 
 const AboutUsPage = () => {
-  // Static developer information
+  
   const developerInfo = {
     name: "John Doe",
     bio: "John is a passionate full-stack developer with over 5 years of experience in building web applications. He specializes in React, Node.js, MongoDB, and loves to create user-friendly interfaces.",

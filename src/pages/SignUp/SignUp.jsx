@@ -4,11 +4,12 @@ import Lottie from "lottie-react";
 import React, { useContext } from "react";
 import signUpLottieData from "../../assets/Lottie/Animation - 1733898179407 (1).json";
 import { useForm } from "react-hook-form";
-import { AuthContext } from "../../providers/AuthProvider";
-import { Link, useNavigate } from "react-router-dom";
+
 import Swal from "sweetalert2";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 import SocialLogin from "../../components/SocialLogin/SocialLogin";
+import { AuthContext } from "../../providers/AuthProvider";
+import { useNavigate } from "react-router-dom";
 const SignUp = () => {
   const axiosPublic = useAxiosPublic();
   const {
