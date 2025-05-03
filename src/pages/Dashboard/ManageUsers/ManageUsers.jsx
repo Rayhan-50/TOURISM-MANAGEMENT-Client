@@ -40,7 +40,6 @@ const ManageUsers = () => {
     currentPage * usersPerPage
   );
 
-  // Handlers for role changes and deletion
   const handleMakeAdmin = (user) => {
     Swal.fire({
       title: "Are you sure?",
